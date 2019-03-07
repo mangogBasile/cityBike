@@ -1,0 +1,73 @@
+##################### pré-requis ##################### 
+Avoir Scala, sbt et java installé sur la machine.
+Version Scala: 2.12
+Version sbt : 1.2.8
+Version java: 1.8
+
+
+
+
+##################### But du job ##################### 
+
+Le job suivant effectue la lecture d'un fichier au format json stocké dans un répertoire sous la forme ANNÉE/MOIS/JOUR (pour des besoins d'historisation des traitements). Il produit 2 fichiers présentant la répartition des stations de vélos en fonction de leurs numéros.
+
+Pour des besoins de monitoring du job, un fichier portant le suffixe "_metrics" est créé à la fin de l'execution du job. Ce fichier contient des métriques de contrôle liés au job.
+
+
+
+
+
+##################### Organisation du stockage ##################### 
+Pour l'exécution de ce job, 3 sous répertoires sont mis à disposition sous le répertoire "data". Ces sous répertoires peuvent être modifiés au moyen des variables d'environnement.
+
+1) staging : il convient le fichier json à traiter et archivé dans un sous répertoire de staging sous la forme ANNÉE/MOIS/JOUR
+
+2) working: il convient 2 fichiers txt qui sont le résultat du clustering des stations. Ils sont archivés dans un sous répertoire de working sous la forme ANNÉE/MOIS/JOUR
+
+3) metrics: il convient le fichier txt renfermant les métriques de contrôle du job. Il est archivé dans un sous répertoire de metrics sous la forme ANNÉE/MOIS/JOUR
+
+
+
+
+##################### Variables d'environnement ##################### 
+(exemple à voir dans le fichier référence.conf contenu dans le job et possédant des valeurs par défaut). Ces variables sont à créer dans le terminal avant le lancement du job. Ci dessous la liste des variables  :
+
+
+- DATE_STAGING : Date du jour à traiter, à utiliser pour historiser et organiser l'archivage des données
+
+- JOB_NAME :Nom donné au job en vue de son identification
+
+- FILE_NAME : Nom du fichier à traiter
+
+- STAGING_ROOT_DIRECTORY : Racine du Dossier où est stocké le fichier json à traiter. Chaque fichier étant stocké dans un sous répertoire de la forme ANNÉE/MOIS/JOUR contenu dans cette racine
+
+- WORKING_ROOT_DIRECTORY : Racine du Dossier où est stocké le résultat du clustering. Chaque fichier étant stocké dans un sous répertoire de la forme ANNÉE/MOIS/JOUR
+
+
+- METRIC_ROOT_DIRECTORY : Racine du Dossier où sont stockés les métriques du job. Chaque fichier étant stocké dans un sous répertoire de la forme ANNÉE/MOIS/JOUR
+
+
+
+
+##################### déploiement et lancement du job ##################### 
+Dans le terminal, à la racine du dossier :
+
+1) Créer en cas de besoin les variables d'environnement (ex: export nom_de_la_variable= ....)
+
+Méthode 1
+2) Exécuter les commandes suivantes : 
+- sbt compile
+- sbt "project clustering" run
+
+Méthode 2
+2) Exécuter les commandes suivantes : 
+- sbt assembly   (cette commande va créer un uber jar nécessaire à l'execution du job)
+-java -jar  clustering/target/scala-2.12/clustering-assembly-0.1.0-SNAPSHOT.jar
+
+
+
+##################### Visualisation des résultats ##################### 
+La visualisation des résultats se fait dans les répertoires working et metrics correspondant à la date du fichier json traité
+
+
+

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: configs
+Implementation-Version: 0.4.4
+Specification-Vendor: com.github.kxbmap
+Specification-Title: configs
+Implementation-Vendor-Id: com.github.kxbmap
+Specification-Version: 0.4.4
+Implementation-URL: https://github.com/kxbmap/configs-root
+Implementation-Vendor: com.github.kxbmap
+

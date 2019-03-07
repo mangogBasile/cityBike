@@ -1,0 +1,29 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/common_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company/common/model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company/common/model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company/common/utils/Tools$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company/common/utils/Tools$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company/common/model/BikeStation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company/common/model/BikeStation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company/common/model/BikeStation$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company/common/model/BikeStation$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company/common/utils/Tools$anon$lazy$macro$15$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company/common/utils/Tools$anon$lazy$macro$15$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company/common/utils/Tools$anon$lazy$macro$15$1$anon$macro$13$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company/common/utils/Tools$anon$lazy$macro$15$1$anon$macro$13$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company/common/utils/Tools$anon$lazy$macro$15$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company/common/utils/Tools$anon$lazy$macro$15$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company/common/utils/Tools$anon$lazy$macro$15$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company/common/utils/Tools$anon$lazy$macro$15$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company/common/utils/Tools.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company/common/utils/Tools.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company/common[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company/common[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fr/company/common/utils[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bmangog/Documents/test_scala/IdeaProjects/IdeaProjects/cityBike/common/target/scala-2.12/classes/fr/company/common/utils[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
