@@ -1,4 +1,5 @@
 target/*
 project/target/*
-target/*
 .idea/*
+common/target/*
+clustering/target/*
