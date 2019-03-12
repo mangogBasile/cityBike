@@ -4,12 +4,12 @@ package fr.company.common.model
 /*
  *This model will be use to model Bikestation
  */
-case class BikeStation(  number: Int,
-                         name: String,
-                         address: String,
-                         latitude: Double,
-                         longitude: Double
+case class BikeStation(  id: Double,
+                         name: Option[String],
+                         address: Option[String],
+                         latitude: Option[Double],
+                         longitude: Option[Double]
                        )
 {
-  def mkstring = s"{number:${number}, name:${name}, address:${address}, latitude:${latitude}, longitude:${longitude}}"
+  def mkstring = s"{id:${id}, name:${name.getOrElse("null")}, address:${address.getOrElse("null")}, latitude:${latitude.getOrElse("null")}, longitude:${longitude.getOrElse("null")}}"
 }
